@@ -16,6 +16,8 @@ print(arithmetic_expression)
 
 addition = 0.3 + 0.5
 print(addition)
+
+# This is a normal problem in the programming languages
 problem_float = 0.2 + 0.1
 print(problem_float)
 problem_float = 3 * 0.1
