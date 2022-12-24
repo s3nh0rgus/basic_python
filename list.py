@@ -39,3 +39,22 @@ imperialist_country = "United States"
 countrys.remove(imperialist_country)
 print(countrys)
 
+cars = ["bmw", "mercedes", "audi", "tesla"]
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print(cars)
+bikes = ["mountain", "bmx", "road"]
+print("\nOriginal list:") 
+print(bikes)
+print("\nSorted list:")
+print(sorted(bikes))
+print("\nOriginal list again:")
+print(bikes)
+
+print("\nMy favorite actors: ")
+actors = ["adam sandler", "jim carrey", "wagner moura", "lázaro ramos"]
+print(actors)
+actors.reverse()
+print(actors)
+print(len(actors))
