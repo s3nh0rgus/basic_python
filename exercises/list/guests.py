@@ -30,7 +30,11 @@ print("I am sorry! I hope that you can understand " + guests.pop(2))
 print("I am sorry! I hope that you can understand " + guests.pop(2))
 print("I am sorry! I hope that you can understand " + guests.pop(2))
 print("I am sorry! I hope that you can understand " + guests.pop())
-print("If you are not my wedding " + guests[0] + " and " + guests[1] + ", there is no wedding.")
+print("If you are not my wedding " + guests[0] + " and " + guests[1] + ", there is no wedding.\n")
+
+guests_dinner = len(guests)
+print("I will be having dinner with my " + str(guests_dinner) + " wedding guests (my " + guests[0] + " and " + guests[1] + ").\n")
+
 del guests[0]
 del guests[0]
 print(guests)
